@@ -84,11 +84,14 @@ def logout():
     session.clear()
     return redirect(url_for("login"))
 
-#@app.route("/myabulm")
-#def myabulm():
-#    return
 
+@app.route("/MyProfile")
+def myprofile():
+    return render_template("MyFrofile.html")
 
+@app.route("/MyAlblumS")
+def myalbums():
+    return render_template("MyAlbumS.html")
 
 if __name__ == '__main__':
     app.secret_key = "nmsl!"

@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acac0e7e-4507-45eb-87b8-e2fdea72469b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AlbumX.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FriendList.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyAlbumS.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProfile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhotoX.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Recommondation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SearchResult.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UsersLiked.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouMayAlsoLike.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DIskBfr.ppt" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AlbumX.html" afterPath="$PROJECT_DIR$/templates/AlbumX.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FriendList.html" afterPath="$PROJECT_DIR$/templates/FriendList.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyAlbumS.html" afterPath="$PROJECT_DIR$/templates/MyAlbumS.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProfile.html" afterPath="$PROJECT_DIR$/templates/MyProfile.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhotoX.html" afterPath="$PROJECT_DIR$/templates/PhotoX.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Recommondation.html" afterPath="$PROJECT_DIR$/templates/Recommondation.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SearchResult.html" afterPath="$PROJECT_DIR$/templates/SearchResult.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Upload.html" afterPath="$PROJECT_DIR$/templates/Upload.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/UsersLiked.html" afterPath="$PROJECT_DIR$/templates/UsersLiked.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/YouMayAlsoLike.html" afterPath="$PROJECT_DIR$/templates/YouMayAlsoLike.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PA1.py" afterPath="$PROJECT_DIR$/PA1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,105 +25,115 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/MyFakeIns$PA1.coverage" NAME="PA1 Coverage Results" MODIFIED="1509048610313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/PA1$PA1.coverage" NAME="PA1 Coverage Results" MODIFIED="1508963227680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyAlbumS.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyAlbumS.html">
+      <file leaf-file-name="PA1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PA1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="220">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#93#0" expanded="true" />
+                <marker date="1509219082000" expanded="true" signature="1703:1808" ph="INSERT INTO USER... " />
+                <marker date="1509219082000" expanded="true" signature="2278:2313" ph="SELECT * FRO... USER" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../cs460old/cs460/myphotoshare/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1595">
+              <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+              <folding>
+                <marker date="1507756087000" expanded="true" signature="842:865" ph="SELECT email... Users" />
+                <marker date="1507756087000" expanded="true" signature="981:1004" ph="SELECT email... Users" />
+                <marker date="1507756087000" expanded="true" signature="1102:1123" ph="SELECT uid f... Users" />
+                <marker date="1507756087000" expanded="true" signature="1675:1721" ph="SELECT passw... Users" />
+                <marker date="1507756087000" expanded="true" signature="2392:2438" ph="SELECT passw... Users" />
+                <marker date="1507756087000" expanded="true" signature="2814:2877" ph="SELECT uid, Users" />
+                <marker date="1507756087000" expanded="true" signature="3331:3377" ph="SELECT passw... Users" />
+                <marker date="1507756087000" expanded="true" signature="5193:5285" ph="INSERT INTO Users... " />
+                <marker date="1507756087000" expanded="true" signature="5729:5797" ph="SELECT imgda... Photos" />
+                <marker date="1507756087000" expanded="true" signature="5958:6016" ph="SELECT aid, Albums" />
+                <marker date="1507756087000" expanded="true" signature="6139:6181" ph="SELECT uid F... Users" />
+                <marker date="1507756087000" expanded="true" signature="6369:6413" ph="SELECT email... Users" />
+                <marker date="1507756087000" expanded="true" signature="7818:7881" ph="SELECT count... Photos" />
+                <marker date="1507756087000" expanded="true" signature="8161:8245" ph="INSERT INTO Photos... " />
+                <marker date="1507756087000" expanded="true" signature="8386:8430" ph="SELECT pid F... photos" />
+                <marker date="1507756087000" expanded="true" signature="8598:8654" ph="INSERT INTO albumPhoto... " />
+                <marker date="1507756087000" expanded="true" signature="8994:9059" ph="INSERT INTO photoTags... " />
+                <marker date="1507756087000" expanded="true" signature="9914:9967" ph="INSERT INTO Albums... " />
+                <marker date="1507756087000" expanded="true" signature="10790:10867" ph="SELECT count... Photos" />
+                <marker date="1507756087000" expanded="true" signature="11011:11090" ph="SELECT count... Comments" />
+                <marker date="1507756087000" expanded="true" signature="12453:12516" ph="SELECT uid, Users" />
+                <marker date="1507756087000" expanded="true" signature="12897:12937" ph="SELECT fid F... Friends" />
+                <marker date="1507756087000" expanded="true" signature="13171:13216" ph="SELECT uid, Users" />
+                <marker date="1507756087000" expanded="true" signature="13569:13685" ph="SELECT count... Friends" />
+                <marker date="1507756087000" expanded="true" signature="14100:14153" ph="INSERT INTO Friends... " />
+                <marker date="1507756087000" expanded="true" signature="14284:14337" ph="INSERT INTO Friends... " />
+                <marker date="1507756087000" expanded="true" signature="14961:15014" ph="SELECT DISTI... photoTags" />
+                <marker date="1507756087000" expanded="true" signature="15220:15265" ph="SELECT count... Users" />
+                <marker date="1507756087000" expanded="true" signature="15442:15505" ph="SELECT uid, Users" />
+                <marker date="1507756087000" expanded="true" signature="15804:15851" ph="SELECT uid, Users" />
+                <marker date="1507756087000" expanded="true" signature="16225:16288" ph="SELECT pid F... photoTags" />
+                <marker date="1507756087000" expanded="true" signature="17753:17794" ph="SELECT DISTI... photoTags" />
+                <marker date="1507756087000" expanded="true" signature="18139:18197" ph="SELECT count... photoTags" />
+                <marker date="1507756087000" expanded="true" signature="18472:18520" ph="SELECT DISTI... photoTags" />
+                <marker date="1507756087000" expanded="true" signature="18680:18735" ph="SELECT count... photoTags" />
+                <marker date="1507756087000" expanded="true" signature="22535:22580" ph="SELECT count... photoTags" />
+                <marker date="1507756087000" expanded="true" signature="23670:23728" ph="SELECT uid, Comments" />
+                <marker date="1507756087000" expanded="true" signature="24007:24121" ph="SELECT pid F... photoTags" />
+                <marker date="1507756087000" expanded="true" signature="24656:24759" ph="SELECT pid F... photoTags" />
+                <marker date="1507756087000" expanded="true" signature="25617:25739" ph="SELECT count... Likes" />
+                <marker date="1507756087000" expanded="true" signature="26257:26365" ph="SELECT email... Users" />
+                <marker date="1507756087000" expanded="true" signature="26554:26617" ph="INSERT INTO Likes... " />
+                <marker date="1507756087000" expanded="true" signature="27258:27298" ph="SELECT uid F... Photos" />
+                <marker date="1507756087000" expanded="true" signature="27473:27531" ph="SELECT uid, Comments" />
+                <marker date="1507756087000" expanded="true" signature="27959:28087" ph="INSERT INTO Comments... " />
+                <marker date="1507756087000" expanded="true" signature="28238:28296" ph="SELECT uid, Comments" />
+                <marker date="1507756087000" expanded="true" signature="28623:28664" ph="SELECT email... Users" />
+                <marker date="1507756087000" expanded="true" signature="28806:28892" ph="SELECT uid, Likes" />
+                <marker date="1507756087000" expanded="true" signature="31082:31118" ph="DELETE FROM " />
+                <marker date="1507756087000" expanded="true" signature="31413:31449" ph="DELETE FROM " />
+                <marker date="1507756087000" expanded="true" signature="31730:31774" ph="SELECT pid F... albumPhoto" />
+                <marker date="1507756087000" expanded="true" signature="32045:32113" ph="SELECT imgda... Photos" />
+                <marker date="1507756087000" expanded="true" signature="32253:32358" ph="SELECT tid, photoTags" />
+                <marker date="1507756087000" expanded="true" signature="32517:32593" ph="SELECT email... Users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyProfile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyProfile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AlbumX.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AlbumX.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhotoX.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PhotoX.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersLiked.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UsersLiked.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Upload.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Upload.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FriendList.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FriendList.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchResult.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SearchResult.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Recommondation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Recommondation.html">
+      <file leaf-file-name="MyAlbumS.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/MyAlbumS.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="YouMayAlsoLike.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/YouMayAlsoLike.html">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="150">
+              <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -150,8 +163,6 @@
         <option value="$PROJECT_DIR$/templates/layout.html" />
         <option value="$PROJECT_DIR$/templates/register.html" />
         <option value="$PROJECT_DIR$/templates/login.html" />
-        <option value="$PROJECT_DIR$/PA1.py" />
-        <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/MyAlbumS.html" />
         <option value="$PROJECT_DIR$/MyProfile.html" />
         <option value="$PROJECT_DIR$/AlbumX.html" />
@@ -163,6 +174,8 @@
         <option value="$PROJECT_DIR$/SearchResult.html" />
         <option value="$PROJECT_DIR$/Recommondation.html" />
         <option value="$PROJECT_DIR$/YouMayAlsoLike.html" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/PA1.py" />
       </list>
     </option>
   </component>
@@ -200,6 +213,11 @@
               <item name="MyFakeIns" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyFakeIns" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyFakeIns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyFakeIns" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -211,6 +229,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -277,7 +300,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -311,8 +334,8 @@
           <caret line="49" column="33" lean-forward="true" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
           <folding>
             <element signature="e#0#93#0" expanded="true" />
-            <marker date="1508976265000" expanded="true" signature="1703:1808" ph="INSERT INTO USER... " />
-            <marker date="1508976265000" expanded="true" signature="2278:2313" ph="SELECT * FRO... USER" />
+            <marker date="1509219082000" expanded="true" signature="1703:1808" ph="INSERT INTO USER... " />
+            <marker date="1509219082000" expanded="true" signature="2278:2313" ph="SELECT * FRO... USER" />
           </folding>
         </state>
       </provider>
@@ -355,8 +378,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#93#0" expanded="true" />
-            <marker date="1508976265000" expanded="true" signature="1703:1808" ph="INSERT INTO USER... " />
-            <marker date="1508976265000" expanded="true" signature="2278:2313" ph="SELECT * FRO... USER" />
+            <marker date="1509219082000" expanded="true" signature="1703:1808" ph="INSERT INTO USER... " />
+            <marker date="1509219082000" expanded="true" signature="2278:2313" ph="SELECT * FRO... USER" />
           </folding>
         </state>
       </provider>
@@ -393,26 +416,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -425,10 +432,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/MyProfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/AlbumX.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateAlbum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/PhotoX.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/UsersLiked.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/FriendList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/SearchResult.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Recommondation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/YouMayAlsoLike.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../cs460old/cs460/myphotoshare/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="180" column="0" lean-forward="true" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+        <state relative-caret-position="-1595">
+          <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
           <folding>
             <marker date="1507756087000" expanded="true" signature="842:865" ph="SELECT email... Users" />
             <marker date="1507756087000" expanded="true" signature="981:1004" ph="SELECT email... Users" />
@@ -488,102 +575,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PA1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="68" column="44" lean-forward="true" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
+        <state relative-caret-position="220">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="e#0#93#0" expanded="true" />
-            <marker date="1508976265000" expanded="true" signature="1703:1808" ph="INSERT INTO USER... " />
-            <marker date="1508976265000" expanded="true" signature="2278:2313" ph="SELECT * FRO... USER" />
+            <marker date="1509219082000" expanded="true" signature="1703:1808" ph="INSERT INTO USER... " />
+            <marker date="1509219082000" expanded="true" signature="2278:2313" ph="SELECT * FRO... USER" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyAlbumS.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyProfile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlbumX.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhotoX.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UsersLiked.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CreateAlbum.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FriendList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SearchResult.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recommondation.html">
+    <entry file="file://$PROJECT_DIR$/templates/MyAlbumS.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YouMayAlsoLike.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>
